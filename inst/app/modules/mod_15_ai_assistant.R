@@ -372,7 +372,7 @@ mod15_ui <- function(id) {
                       sliderInput(ns("pwr_target"), "Target Power (1−β)", min=0.60, max=0.99, value=0.80, step=0.01)
                     ),
                     conditionalPanel(
-                      condition = sprintf("input['%s'] %in% ['anova','reg']", ns("pwr_test")),
+                      condition = sprintf("['anova','reg'].includes(input['%s'])", ns("pwr_test")),
                       numericInput(ns("pwr_k"), "No. of groups / predictors (k)", value=3, min=2, max=20)
                     ),
                     br(),
