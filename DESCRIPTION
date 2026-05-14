@@ -1,0 +1,111 @@
+Package: DrAIStat
+Type: Package
+Title: AI-Powered Statistical Analysis Tool for Research
+Version: 3.0.0
+Date: 2026-05-14
+Authors@R: person(
+    given   = "Aneeq",
+    family  = "Inam",
+    role    = c("aut", "cre"),
+    email   = "a.inam@hbmsu.ac.ae",
+    comment = c(ORCID = "0000-0001-7682-2244")
+  )
+Description: A comprehensive, AI-powered statistical analysis platform
+    delivered as an interactive Shiny application. Dr.AIStat provides
+    15 analysis modules covering descriptive statistics, measurement
+    analysis (EFA/CFA), group comparison tests, regression, machine
+    learning classification, clustering, Item Response Theory (IRT),
+    endogeneity tests, advanced Bayesian methods, Structural Equation
+    Modelling (SEM/PLS-SEM), Conditional Mediation (CoMe),
+    bibliometric analysis, fuzzy-set Qualitative Comparative Analysis
+    (fsQCA), STATA-style panel/survival methods, and an AI Research
+    Assistant powered by the free Groq API. Launch the app with
+    run_draiststat().
+License: MIT + file LICENSE
+URL: https://github.com/aneeqinam/DrAIStat
+BugReports: https://github.com/aneeqinam/DrAIStat/issues
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.3.1
+Depends:
+    R (>= 4.1.0)
+Imports:
+    shiny (>= 1.7.0),
+    shinydashboard,
+    shinyWidgets,
+    shinycssloaders,
+    DT,
+    plotly,
+    ggplot2,
+    ggcorrplot,
+    readxl,
+    writexl,
+    openxlsx,
+    dplyr,
+    tidyr,
+    psych,
+    GPArotation,
+    moments,
+    lavaan,
+    semTools,
+    semPlot,
+    rstatix,
+    car,
+    lmtest,
+    MASS,
+    caret,
+    randomForest,
+    e1071,
+    pROC,
+    rpart,
+    rpart.plot,
+    cluster,
+    factoextra,
+    mclust,
+    ltm,
+    eRm,
+    AER,
+    boot,
+    bibliometrix,
+    stringr,
+    scales,
+    RColorBrewer,
+    igraph,
+    corrr,
+    httr2,
+    jsonlite
+Suggests:
+    ggdist,
+    ggridges,
+    GGally,
+    DiagrammeR,
+    visNetwork,
+    ggalluvial,
+    waffle,
+    patchwork,
+    ggrepel,
+    ggsignif,
+    ranger,
+    QCA,
+    SetMethods,
+    seminr,
+    blavaan,
+    rstan,
+    rstanarm,
+    plm,
+    survival,
+    margins,
+    rdrobust,
+    tseries,
+    forecast,
+    vars,
+    NCA,
+    quantreg,
+    pwr,
+    NbClust,
+    ordinal,
+    Hmisc,
+    ivreg,
+    nnet,
+    viridis,
+    rstudioapi
